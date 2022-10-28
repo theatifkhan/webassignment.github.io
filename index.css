@@ -1,0 +1,98 @@
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	
+	height: 400px;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/class3.jpg);
+	background-position: flex;
+	background-size: cover;
+	position: relative;
+
+}
+.text{
+width: 90%;
+color: #fff;
+margin-top: 60px;
+top: 50%
+left: 50%;
+text-align: center;
+}
+
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	width: 100px;
+	border-radius: 100px;
+}
+
+.about{
+	padding: 50px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+
+.infra{
+	background: Yellow;
+	width: 80%
+	margin; auto;
+	text-align: center;
+	padding: 50px;
+}
+
+.row{
+	display: flex;
+}
+.col{
+	border-radius: 100px;
+	margin-left: 30px;
+	margin-top: 20px;
+    width: 33%;
+    margin-bottom: 30px;
+}
+
+.col img{
+	border-radius: 10px;
+	width: 100%;
+	height: 200px;
+}
+table, th,td{
+	color: white;
+	margin: 10px;
+	border: 2px solid white;
+}
+.time-table{
+	padding:20px;
+
+	background-color: blue;
+	text-align: center;
+}
+.video{
+	background-color: yellow;
+	padding: 20px;
+	text-align: center;
+}
+
+.gototop{
+height: 25px;
+background-color: black;
+width: 100%;
+text-align: center;
+padding: 25px;
+}
+.toplink{
+color: white;
+text-align: center;
+}
